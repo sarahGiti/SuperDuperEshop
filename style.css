@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    width: 100%;
+}
+
 h1 {
     font-size: 50px;
     line-height: 64px;
@@ -43,10 +47,19 @@ p {
     margin: 40px 0;
 }
 
-body {
-    width: 100%;
-}
+button.normal {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
 
+}
 /* Header Start */
 #header {
     display: flex;
@@ -185,6 +198,7 @@ body {
 #feature .fe-box:nth-child(6) h6 {
     background-color: #fff2e5;
 }
+
 #product1 {
     text-align: center;
 }
@@ -248,4 +262,46 @@ body {
     bottom: 20px;
     right: inherit;
     right: 10px;
+}
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("img/banner/b2.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+#banner h4 {
+    color: #fff;
+    font-size: 16px;  
+}
+#banner h2 {
+    color: #fff;
+    font-size: 30px;  
+    padding: 10px 0;
+}
+#banner h2 span {
+    color: #ef3636;
+}
+#banner button:hover {
+    background-color: #088178;
+    color: #fff;
+}
+
+#sm-banner .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("img/banner/b17.jpg");
+    min-width: 500px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
 }
